@@ -2,9 +2,9 @@
 
 .container {
   max-width: rem(327);
-  margin: rem(85) auto;
+  margin: rem(148) auto rem(85);
   background-color: white;
-  border-radius: rem(30);
+  border-radius: rem(23);
 
   @include breakpoint(large) {
     max-width: rem(920);
