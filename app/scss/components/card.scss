@@ -1,0 +1,62 @@
+@use '../util/' as *;
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &__img {
+        .img__mobile {
+
+            &-woman {
+                position: relative;
+                bottom: rem(25);
+            }
+
+            &-shadow {
+
+            }
+
+            @include breakpoint(large) {
+                display: none;
+            }
+        }
+
+        .img__desktop {
+
+            &-pattern {
+
+            }
+
+            &-box {
+
+            }
+
+            &-woman {
+
+            }
+
+            @include breakpoint-down(small) {
+                display: none;
+            }
+        }
+    }
+
+    &__faq {
+        h1 {
+            text-align: center;
+        }
+
+        .faq__content {
+            h2 {
+
+            }
+            img {
+
+            }
+            p {
+
+            }
+        }
+    }
+}

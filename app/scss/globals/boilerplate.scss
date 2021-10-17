@@ -1,0 +1,18 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+    background-color: var(--soft-violet)
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-kumbh);
+    background-image: linear-gradient(to top, var(--soft-blue), var(--soft-violet));
+}
